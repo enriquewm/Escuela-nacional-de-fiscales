@@ -501,4 +501,12 @@ div.about{
     border-radius: 10px;
 }
 
+.mono-for{
+	height: 500px;
+}
+
+.mono-for input{
+	height: 34px;
+}
+
 
