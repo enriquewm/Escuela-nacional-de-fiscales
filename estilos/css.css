@@ -132,8 +132,8 @@ header{
 
 .modificar{
 	width: 320px;
-	height: 355px;
-	padding-top: 	10px;
+	height: 430px;
+	padding-top: 10px;
 	position: relative;
 	text-align: ;
 	
@@ -143,34 +143,41 @@ header{
  	padding-top: 15px;
  }
  .modificar .reseña h3{
- 	font-family: georgia !important;
+ 	font-family: raleway !important;
  	font-size: 1.4em;
  	color: #1d1d1d !important;
  }
  .modificar .reseña h3 i{
- 	font-size: 1.5em;
+ 	font-size: 1.9em;
+ 	width: 60px;
+ 	margin-left: 120px;
  	padding: 13px;
  	color: #fff;
+ 	display:block;
  	border-radius: 50%;
  	background:#E99706;
 
  }
 .modificar .reseña h3, p{
 	color: #000;
+	font-size: 1.1em;
 	font-family: raleway;
-	text-align: justify;
+	text-align: center;
 }
 
 .modificar .reseña a{
-	color: #2d2d2d;
-	background: transparent;
-	
- 	border-radius: 5px;
+	color: #fff;
+	background:#E99706;
+	text-align: center;
+	display: inline-block;
+	padding: 8px;
+ 	border-radius: 2px;
+ 	margin-left: 110px;
 }
 
 .modificar .reseña a:hover > i {
 	padding-left: 4px;
-	color:#E99706;
+	color:#fff;
 	transition:all .6s;
 }
 
@@ -431,17 +438,25 @@ div.about{
 
 .sociales{
 	height: 600px;
-	background: #00233f;
+	background:url(../images/nuevof.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding: 50px 0;
 }
 
 .controlador{
-	padding-left: 10px;
+	padding-left: 20px;
+	background: #0069be;
+	-webkit-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    -moz-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+	border-radius: 10px;
 }
 
 .controlador h3{
 	font-family: raleway;
-	color: #fff;
+	color: #d4d4d4;
 }
 .bt-1{
 	
@@ -454,8 +469,9 @@ div.about{
 }
 .bt-1 img{
 
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
+	margin: 0 5px;
 	border-radius: 10px;
 
 }
@@ -477,7 +493,9 @@ div.about{
 }
 .mapaa iframe{
 	width: 100%;
-
+	-webkit-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    -moz-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
     max-height:380px;
     height:300px;
     border-radius: 10px;
