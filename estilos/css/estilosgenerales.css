@@ -1,0 +1,48 @@
+body .wrapper{
+	background:url(../images/dibujo.jpg);
+	background-attachment: ;
+}
+.navbar-collapse ul li a, .fa {
+	font-size: 14px;
+}
+
+.icon_service .fa{
+	color: #fff;
+	background: #43b1e8;
+	
+}
+
+#fondo {
+	width: 100%;
+	height: 250px;
+	background: url(../images/fondo.jpg);
+	background-attachment:fixed;
+}
+
+
+.promo_content{
+	font-family: arial;
+}
+
+
+}
+
+.pricingTable-header .price-value{
+	background: red;
+}
+
+.colorfondo{
+	background: red;
+}
+
+
+
+video{
+	width: 100%;
+	
+
+}
+
+.slide{
+	
+}
