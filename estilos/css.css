@@ -120,12 +120,12 @@ header{
 }
 
 .fondo1 h2{
-	font-family: georgia;
+	font-family: raleway;
 	text-align: center;
 	padding-top: 40px;
 	padding-left: 50px;
 	padding-bottom: 0px;
-	color: #1d1d1d;
+	color: #4d4d4d;
 	
 }
 
@@ -155,7 +155,12 @@ header{
  	color: #fff;
  	display:block;
  	border-radius: 50%;
- 	background:#E99706;
+ 	background:#00233f;
+
+ }
+ .reseña h3 i:hover{
+ 	background: #014a84;
+ 	transition:all .6s;
 
  }
 .modificar .reseña h3, p{
@@ -167,12 +172,16 @@ header{
 
 .modificar .reseña a{
 	color: #fff;
-	background:#E99706;
+	background:#00233f;
 	text-align: center;
 	display: inline-block;
 	padding: 8px;
  	border-radius: 2px;
  	margin-left: 110px;
+}
+.modificar .reseña a:hover{
+	background: #014a84;
+ 	transition:all .6s;
 }
 
 .modificar .reseña a:hover > i {
@@ -502,11 +511,15 @@ div.about{
 }
 
 .mono-for{
-	height: 500px;
+	height: 550px;
 }
 
 .mono-for input{
 	height: 34px;
 }
 
-
+.formulario h2{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
