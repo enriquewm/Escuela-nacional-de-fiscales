@@ -144,7 +144,8 @@ header{
  }
  .modificar .reseña h3{
  	font-family: raleway !important;
- 	font-size: 1.4em;
+ 	font-size: 1.6em;
+ 	font-weight: bold;
  	text-align: center !important;
  	color: #1d1d1d !important;
  }
@@ -513,6 +514,12 @@ div.about{
 
 .mono-for{
 	height: 550px;
+	background-image: url(../images/milmaneras.jpg);
+	background-size: 60%;
+	background-position: 300px;
+	background-repeat: no-repeat;
+	
+
 }
 
 .mono-for input{
@@ -523,4 +530,6 @@ div.about{
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 40px;
+	color: #4d4d4d;
+	font-weight: bold;
 }
