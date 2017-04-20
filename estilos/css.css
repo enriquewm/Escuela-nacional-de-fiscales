@@ -145,13 +145,14 @@ header{
  .modificar .reseña h3{
  	font-family: raleway !important;
  	font-size: 1.4em;
+ 	text-align: center !important;
  	color: #1d1d1d !important;
  }
  .modificar .reseña h3 i{
  	font-size: 1.9em;
  	width: 60px;
  	margin-left: 120px;
- 	padding: 13px;
+ 	padding: 14px;
  	color: #fff;
  	display:block;
  	border-radius: 50%;
@@ -167,7 +168,7 @@ header{
 	color: #000;
 	font-size: 1.1em;
 	font-family: raleway;
-	text-align: center;
+	text-align: justify;
 }
 
 .modificar .reseña a{
@@ -432,7 +433,7 @@ div.about{
 }
 
 #logo-bar{
-	background: rgba(236,236,236,.96) !important;
+	background: rgba(236,236,236,.7) !important;
 }
 
 .spon.s{
@@ -456,7 +457,7 @@ div.about{
 
 .controlador{
 	padding-left: 20px;
-	background: #0069be;
+	background: #00233f;
 	-webkit-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
     -moz-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
     box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
